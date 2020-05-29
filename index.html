@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+    <meta charset="utf-8">
+
+    <title>Title</title>
+    <meta name="description" content="">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <meta property="og:image" content="path/to/image.jpg">
+    <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+
+    <!-- Chrome, Firefox OS and Opera -->
+    <meta name="theme-color" content="#000">
+    <!-- Windows Phone -->
+    <meta name="msapplication-navbutton-color" content="#000">
+    <!-- iOS Safari -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="#000">
+
+    <link rel="stylesheet" href="css/main.min.css">
+
+</head>
+
+<body>
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous"
+        src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v7.0&appId=205486930865995"></script>
+<div class="wrapper">
+    <div class="header">
+
+        <div class="burger-block">
+            <div class="burger" id="burger">
+                <span></span>
+            </div>
+        </div>
+
+        <div class="burger-menu" id="burger-menu">
+
+            <div class="burger-menu__inner">
+                <div class="burger-menu-top" id="burger-menu-top">
+
+                </div>
+
+                <div class="burger-menu-bottom" id="burger-menu-bottom">
+
+                </div>
+            </div>
+
+        </div>
+
+        <div class="container header-container">
+            <nav class="nav-menu" data-da="burger-menu-top,1,680">
+                <ul class="nav-menu__list">
+                    <li class="nav-menu__item"><a href="#">Login</a></li>
+                    <li class="nav-menu__item"><a href="#">Registration</a></li>
+                    <li class="nav-menu__item"><a href="#">About</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <section class="content">
+
+        <div class="content-left">
+
+            <div class="screens">
+                <div class="screens__1">
+                    <img src="img/screens/screen_main.png" alt="BattleShip screen 1">
+                </div>
+            </div>
+        </div>
+
+        <div class="content-right">
+
+            <div class="block-right">
+                <a class="logo-link" href="#">
+                    <img src="img/logo_2.svg" alt="logo title">
+                </a>
+                <!-- <a href="#" class="right1_8">Take Off</a> -->
+
+                <svg viewbox="0 0 100 20">
+                    <defs>
+                        <linearGradient id="gradient" x1="0" x2="0" y1="0" y2="1">
+                            <stop offset="25%" stop-color="#2980b2"/>
+                            <stop offset="75%" stop-color="#0d2a3f"/>
+                        </linearGradient>
+                        <pattern id="wave" x="0" y="0" width="120" height="20" patternUnits="userSpaceOnUse">
+                            <path id="wavePath"
+                                  d="M-40 9 Q-30 7 -20 9 T0 9 T20 9 T40 9 T60 9 T80 9 T100 9 T120 9 V20 H-40z"
+                                  fill="url(#gradient)">
+                                <animateTransform attributeName="transform" type="translate" begin="0s" dur="1.5s"
+                                                  from="0,0" to="40,0" repeatCount="indefinite"/>
+                            </path>
+                        </pattern>
+                    </defs>
+                    <text text-anchor="middle" x="50" y="15" font-family="Station Medium" font-size="17"
+                          fill="url(#wave)" fill-opacity="0.6">War of ships
+                    </text>
+                    <text text-anchor="middle" x="50" y="15" font-family="Station Medium" font-size="17"
+                          fill="url(#gradient)" fill-opacity="0.1">War of ships
+                    </text>
+                </svg>
+
+                <p class="content-text">
+                    Expose your ships and win.<br>
+                    <strong class="orange">Easy, right?</strong>
+                </p>
+
+                <a href="#">
+
+
+                    <img class="content-google-play" src="img/google-play-badge.svg" alt="AppStore Badge">
+                </a>
+
+            </div>
+        </div>
+        <div class="nav-bottom">
+            <ul class="nav-bottom__list">
+                <li class="nav-bottom__item">
+                    <a href="#">About</a>
+                </li>
+                <li class="nav-bottom__item">
+                    <a href="#">Contact Us</a>
+                </li>
+                <li class="nav-bottom__item">
+                    <div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-width=""
+                         data-layout="button_count" data-size="small" data-share="true"></div>
+                </li>
+                <li class="nav-bottom__item">
+                    <a href="https://twitter.com/share?ref_src=twsrc%5Etfw"
+                       class="twitter-share-button"
+                       data-size="small" data-show-count="false">Tweet</a>
+                    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                </li>
+            </ul>
+
+        </div>
+    </section>
+</div>
+
+<script src="js/scripts.min.js"></script>
+
+</body>
+</html>
